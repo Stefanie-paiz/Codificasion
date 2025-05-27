@@ -1,4 +1,5 @@
-public class MienbroSelecion {
+public class MiembroSeleccion {
+
     // Atributos comunes
     protected int id;
     protected String nombre;
@@ -6,7 +7,7 @@ public class MienbroSelecion {
     protected int edad;
 
     // Constructor
-    public MienbroSelecion(int id, String nombre, String apellidos, int edad) {
+    public MiembroSeleccion(int id, String nombre, String apellidos, int edad) {
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
@@ -22,3 +23,4 @@ public class MienbroSelecion {
         System.out.println(nombre + " " + apellidos + " está viajando.");
     }
 }
+
